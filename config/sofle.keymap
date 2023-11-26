@@ -100,11 +100,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp F1          &kp F2  &kp F3            &kp F4    &kp F5  &kp F6                             &kp F7     &kp F8  &kp F9   &kp F10       &kp F11   &kp F12
-&printscreen    &kp Q   &kp W             &kp F     &kp P   &kp B                              &kp J      &kp L   &kp U    &kp Y         &kp SEMI  &kp BSLH
-&kp LEFT_SHIFT  &kp A   &kp R             &kp S     &kp T   &kp G                              &kp M      &kp N   &kp E    &kp I         &kp O     &kp LEFT_SHIFT
-&kp DEL         &kp Z   &kp X             &kp C     &kp D   &kp COMMA  &lt 2 ENTER    &kp TAB  &kp DOT    &kp H   &kp K    &kp V         &kp FSLH  &tog 3
-                        &kp LEFT_CONTROL  &kp LALT  &mo 5   &backtap   &lt 2 ENTER    &kp TAB  &kp SPACE  &mo 4   &kp ESC  &kp LEFT_WIN
+&kp F1          &kp F2  &kp F3            &kp F4    &kp F5       &kp F6                             &kp F7     &kp F8        &kp F9   &kp F10       &kp F11   &kp F12
+&printscreen    &kp Q   &kp W             &kp F     &kp P        &kp B                              &kp J      &kp L         &kp U    &kp Y         &kp SEMI  &kp BSLH
+&kp LEFT_SHIFT  &kp A   &kp R             &kp S     &kp T        &kp G                              &kp M      &kp N         &kp E    &kp I         &kp O     &kp LEFT_SHIFT
+&kp DEL         &kp Z   &kp X             &kp C     &kp D        &kp COMMA  &lt 2 ENTER    &kp TAB  &kp DOT    &kp H         &kp K    &kp V         &kp FSLH  &tog 3
+                        &kp LEFT_CONTROL  &kp LALT  &lt 5 MINUS  &backtap   &lt 2 ENTER    &kp TAB  &kp SPACE  &lt 4 PERIOD  &kp ESC  &kp LEFT_WIN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
