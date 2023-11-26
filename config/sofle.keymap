@@ -68,7 +68,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "BACKTAP";
             #binding-cells = <0>;
-            bindings = <&kp BACKSPACE>, <&kp LC(DEL)>;
+            bindings = <&kp BACKSPACE>, <&kp LC(BACKSPACE)>;
         };
 
         comptap: comptap {
